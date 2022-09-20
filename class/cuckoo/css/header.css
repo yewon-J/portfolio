@@ -1,0 +1,295 @@
+header {
+	width: 100%;
+	position: relative;
+	z-index: 90;
+	min-width: 1360px;
+}
+header a {
+	color:  #fff;
+}
+header .h-top {
+	background-color: #312f2d;
+	font-size: 13px;
+}
+header .h-top > div {
+	padding:  30px 0;
+}
+header .h-in {
+	width: 1596px;
+	margin: 0 auto;
+	position: relative;
+}
+@media (max-width: 1600px) {
+	header .h-in {
+		width: 88%;
+	}
+}
+header .h-left {
+	float:  left;
+}
+header .ht-left {
+	width: 200px;
+}
+header h1 {
+	position: absolute;
+	left: 50%;
+	top: 26px;
+	margin-left: -80px;
+}
+header h1 > a {
+	display: block;
+}
+header .h-right {
+	float: right;
+}
+header .ht-right > a {
+	margin-left: 20px;
+}
+header.active {
+	position: fixed;
+	z-index: 90;
+}
+header > .h-bot {
+	background-color: #7a0f1b;
+	font-size: 17px;
+	width:  100%;
+	transform: translateY(0);
+	transition: 0.3s;
+}
+/*@keyframes ani_drop {
+	0% { transform: translateY(0); }
+	100% { transform: translateY(-74px); }
+}*/
+header.active > .h-bot {
+	transform: translateY(-74px);
+	transition: 0.3s;
+	/*animation: ani_dop 0.3 ease-in-out forwards;*/
+}
+
+
+header .h-in {
+	position: relative;
+}
+header .hb-left {
+	padding: 26px 20px;
+	position: relative;
+	cursor: pointer;
+}
+.hb-left::before, .hb-left::after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 1px;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.3);
+	left: 0;
+	top: 0;
+}
+.hb-left::after {
+	left: auto;
+	right: -1px;
+}
+header .hb-left > a {
+	display:  block;
+	width: 178px;
+	padding: 2px 0;
+	background:  url(../files/images/common/header_menu_cate.png) no-repeat center right;
+}
+header nav {
+	float: left;
+	/*background-color: orange;*/
+	width:  calc(100% - 387px);
+	min-width: 700px;
+	text-align: center;
+	padding-top: 28px;
+}
+nav li {
+	display: inline-block;
+	margin: 0 30px;
+	position: relative;
+}
+nav li:hover > a::after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 20px;
+	height: 2px;
+	bottom: -27px;
+	background-color: #fff;
+}
+.hb-right {
+	padding-top: 25px;
+}
+.hb-right li {
+	display: inline-block;	
+}
+.hb-right li:nth-child(2) {
+	margin: 0 40px;
+}
+.hb-right li:first-child > a {
+	width: 24px;
+	height: 25px;
+	background: url(../files/images/layout/mycuckoo_icon.png) no-repeat;
+}
+.hb-right li:nth-child(2) > a {
+	width: 30px;
+	height: 25px;
+	background: url(../files/images/layout/ico_cart_pc.png) no-repeat center;
+}
+.hb-right li:last-child > a {
+	width: 24px;
+	height: 25px;
+	background: url(../files/images/layout/search_icon.png) no-repeat;
+}
+.hb-right a {
+	display: block;
+	text-indent: -9999px;
+}
+.site-wrap {
+	position: absolute;
+	width: 542px;
+	top: calc(100% + 1px);
+	left: 0;
+	box-shadow: -1px 0 19px -1px rgba(0,0,0,0.3);
+	display: none;
+	/*visibility: hidden;
+	height: 0;
+	opacity: 0;
+	transition: 0.5s;*/
+}
+/*.site-wrap.on {
+	height: 707px;
+	opacity: 1;
+	visibility: visible;
+}*/
+.site-wrap h2 {
+	font-size: 22px;
+	color: #272524;
+	font-weight: bold;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #d6d5d5;
+	margin-bottom: 20px;
+}
+.site-wrap ul + h2 {
+	margin-top: 40px;
+}
+.site-wrap .sitemap {
+	width: 50.7%;
+	background-color: #fff;
+	padding: 30px 0 30px 20px;
+	box-sizing: border-box;
+	/*overflow-y: auto;*/
+}
+.site-wrap .main-wrap > li {
+	line-height: 2.2;
+	display: flex;
+	align-items: center;
+}
+.site-wrap .main-wrap > li::before {
+	content: "";
+	display: inline-block;
+	width: 34px;
+	height: 27px;
+	background: url(../files/images/common/menu_ico.png) no-repeat -8px -8px;
+	/*vertical-align: middle;*/
+}
+.site-wrap .mall > li:nth-child(2)::before {
+	background-position:  -8px -52px;
+} 
+.site-wrap .mall > li:nth-child(3)::before {
+	background-position:  -8px -96px;
+} 
+.site-wrap .mall > li:nth-child(4)::before {
+	background-position:  -8px -144px;
+}
+.site-wrap .mall > li:nth-child(5)::before {
+	background-position:  -8px -185px;
+}
+.site-wrap .mall > li:nth-child(6)::before {
+	background-position:  -8px -230px;
+}  
+.site-wrap .mall > li:last-child::before {
+	background-position:  -8px -276px;
+} 
+.site-wrap .rental > li:first-child::before {
+	background-position:  -61px -8px;
+}
+.site-wrap .rental > li:nth-child(2)::before {
+	background-position:  -61px -52px;
+}
+.site-wrap .rental > li:nth-child(3)::before {
+	background-position:  -61px -96px;
+}
+.site-wrap .rental > li:nth-child(4)::before {
+	background-position:  -61px -144px;
+}
+.site-wrap .rental > li:nth-child(5)::before {
+	background-position:  -61px -185px;
+}
+.site-wrap .rental > li:last-child::before {
+	background-position:  -61px -230px;
+}
+.site-wrap .sitemap span {
+	cursor: pointer;
+}
+.site-wrap .sitemap div {
+	position: absolute;
+	top:  0;
+	left:  50.7%;
+	width: 49.3%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 30px 0 30px 20px;
+	background: #939ba1 url(../files/images/common/ico01.png) no-repeat right bottom;
+	display: none;
+}
+.site-wrap .sitemap div.on {
+	display: block;
+}
+/*.site-wrap .main-wrap > li:hover > div {
+	display: block;
+}*/
+.site-wrap .sub-wrap > li::before {
+	content: "- ";
+	color:  #fff;
+}
+
+.site-wrap .mall > li:nth-child(2) > div {
+	background-image: url(../files/images/common/ico02.png);
+}
+.site-wrap .mall > li:nth-child(3) > div {
+	background-image: url(../files/images/common/ico03.png);
+}
+.site-wrap .mall > li:nth-child(4) > div {
+	background-image: url(../files/images/common/ico04.png);
+}
+.site-wrap .mall > li:nth-child(5) > div {
+	background-image: url(../files/images/common/ico05.png);
+}
+.site-wrap .mall > li:nth-child(6) > div {
+	background-image: url(../files/images/common/ico06.png);
+}
+.site-wrap .mall > li:last-child > div {
+	background-image: url(../files/images/common/ico06_2.png);
+}
+.site-wrap .rental > li:first-child > div {
+	background-image: url(../files/images/common/ico07.png);
+}
+.site-wrap .rental > li:nth-child(2) > div {
+	background-image: url(../files/images/common/ico08.png);
+}
+.site-wrap .rental > li:nth-child(3) > div {
+	background-image: url(../files/images/common/ico09.png);
+}
+.site-wrap .rental > li:nth-child(4) > div {
+	background-image: url(../files/images/common/ico10.png);
+}
+.site-wrap .rental > li:nth-child(5) > div {
+	background-image: url(../files/images/common/ico11.png);
+}
+.site-wrap .rental > li:last-child > div {
+	background-image: url(../files/images/common/ico12.png);
+}
+.site-wrap .sub-wrap a:hover {
+	color: #7a0f1b;
+}

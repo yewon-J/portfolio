@@ -1,0 +1,68 @@
+section {
+    margin: 100px 0 150px 0;
+}
+section .inner {
+    width: 1250px;
+    margin: 0 auto;
+}
+.about {
+    background: url(../img/photo.jpg)no-repeat 0 75%  / cover;
+   /* background-attachment: fixed;*/
+    padding-bottom: 600px;
+    position: relative;
+}
+.about h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #95c0d0;
+    text-align: center;
+    text-indent: -9999px;
+}
+.about .bg {
+}
+.about .port {
+  width: 300px;
+    /* background: rgba(255,255,255,0.4); */
+    margin: 0 auto;
+    padding: 50px 100px;
+    position: absolute;
+    right: -4%;
+    top: 1%;
+}
+.about .port p {
+    color: #444;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 16px;
+}
+.about .port > .info {
+    padding-top: 30px;
+}
+.about .port p > strong {
+    font-size: 30px;
+    font-weight: 500;
+    display: block;
+    padding-bottom: 30px;
+    /*text-align: center;*/
+}
+.about .port p > span {
+    display: inline-block;
+    width: 80px;
+    font-weight: 700;
+}
+
+@media (max-width: 1250px) {
+    section .inner {
+        width: 90%;
+    }
+}
+@media (max-width: 780px) {
+    .about .port {
+       width: 57%;
+        /* background: rgba(255,255,255,0.4); */
+        margin: 0 auto;
+        padding: 50px 0 50px 10px;
+        position: absolute;
+        right: 0;
+    }
+}

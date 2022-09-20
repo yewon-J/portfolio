@@ -1,0 +1,134 @@
+footer {
+	width: 100%;
+	background-color: #1e1f21;
+	color: #999;
+	font-size: 13px;
+}
+footer > .f-top {
+	border-bottom: 1px solid rgba(51, 51, 51, .8);
+}
+footer .f-in {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+footer .f-top > .f-in {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+footer a {
+	color: #999;
+}
+footer select {
+	background-color: #1e1f21;
+	color: #fff;
+	font-weight: 500;
+	font-size: 12px;
+	border: none;
+	width: 120px;
+	height: 60px;
+	box-sizing: border-box;
+	padding: 0 30px 0 12px;
+	background-position: right;
+	background-image: url(../images/ico_down.png);
+}
+footer .fm-site.on select {
+	background-image: url(../images/ico_up.png);
+}
+footer option {
+	margin-top: 2px;
+	padding-bottom: 4px;
+	max-height: 6em;
+}
+.f-top li {
+	display: inline-block;
+	margin-right: 30px;
+}
+.f-top .point > a {
+	color: #fff;
+	font-weight: 500;
+}
+@media (max-width: 900px) {
+	footer .f-top > .f-in {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+	.fm-wrap {
+		width: 100%;
+		background-color: #242527;
+		text-align: center;
+	}
+	footer select {
+		background-color: #242527;
+		width: 240px;
+		padding-left: 50px;
+	}
+	.f-info {
+		width: 100%;
+		max-width: 400px;
+		margin: 15px auto;
+		text-align: center;
+		line-height: 3.0em;
+	}
+	.f-top .f-info li {
+		position: relative;
+	}
+	.f-top .f-info li::after {
+		content: "";
+		display: inline-block;
+		position: absolute;
+		width: 2px;
+		height: 17px;
+		top: 30%;
+		right: -25%;
+		background-color: rgba(51, 51, 51, .9);
+	}
+	.f-top .f-info li:nth-child(4)::after {
+		display: none;
+	}
+	.f-top .f-info li:last-child::after {
+		display: none;
+	}
+}
+.f-bot {
+	padding: 35px 0;
+}
+.f-bot .f-bot-txt {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-bottom: 30px;
+}
+.f-bot > .f-bot-txt > p {
+	font-size: 14px;
+}
+.f-bot .f-bot-tel > span {
+	font-size: 24px;
+	color: #fff;
+}
+.f-bot > .f-bot-copy {
+	font-size: 12px;
+}
+@media (max-width: 900px) {
+	.f-bot {
+		padding: 20px 0 35px;
+	}
+	.f-bot .f-bot-txt {
+		justify-content: center;
+		border-bottom: 1px solid rgba(51,51,51,.8);
+		padding-bottom: 20px;
+	}
+	.f-bot .f-bot-tel > span {
+		font-size: 17px;
+	}
+	.f-bot .f-bot-txt > p {
+		display: none;
+	}
+	.f-bot-copy {
+		text-align: center;
+		padding-top: 20px;
+	}
+}

@@ -1,0 +1,49 @@
+section {
+    margin: 100px 0;
+}
+section .inner {
+    width: 1250px;
+    margin: 0 auto;
+}
+.profile {
+    color: #666;
+}
+.profile h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #95c0d0;
+    text-align: center;
+}
+.profile .pro-wrap > div {
+    border-bottom: 1px solid #95c0d0;
+    padding-bottom: 50px;
+}
+.profile .pro-wrap > div:last-of-type {
+    border-bottom: none;
+}
+.profile .pro-wrap > div > h3 {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 60px 30px 60px 30px;
+    color: #95c0d0;
+
+}
+.profile .pro-wrap > div > p {
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 30px 40px 30px;
+}
+.profile .pro-wrap > div > p > strong {
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+}
+
+@media (max-width: 1250px) {
+    section .inner {
+        width: 90%;
+    }
+}
+@media (max-width: 780px) {
+
+}

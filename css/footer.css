@@ -1,0 +1,53 @@
+/*footer*/
+footer {
+    width: 100%;
+    padding: 65px 0;
+    background-color: #95c0d0;
+    
+}
+footer > .inner {
+    width: 1250px;
+    margin: 0 auto;
+}
+footer address {
+    display: flex;
+    justify-content: space-between;
+}
+footer address > div {
+    line-height: 20px;
+    color: #fff;
+}
+footer address > div > strong {
+    font-size: 15px;
+    font-weight: 500;
+}
+footer address > div > p {
+    font-size: 15px;
+    font-weight: 300;
+}
+footer p > span {
+    display: block;
+}
+
+
+
+@media (max-width: 1250px) {
+    footer > .inner {
+        width: 90%;
+    }
+    footer address {
+        display: block;
+    }
+    footer address > div {
+        padding-bottom: 30px;
+    }
+    footer address > div:nth-of-type(3) {
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+    }
+    footer address > div:last-of-type {
+        padding-bottom: 0;
+        padding-top: 30px;
+    }
+}
+@media (max-width: 1024px) {
+}

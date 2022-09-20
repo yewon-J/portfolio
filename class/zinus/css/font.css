@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+	font-family: "proxima Nova";
+	src:  url(../font/Mark Simonson - Proxima Nova Alt Regular-webfont.woff) format('woff');
+}
+@font-face  {
+	font-family: "Berlingsk";
+	src: url(../font/BerlingskeSerifTx-DBd.woff) format('woff');
+}
+
+body {
+	font-family: proxima Nova, "Noto Sans KR", sans-serif;
+}
+
+.tit {
+	font-family: "Berlingsk", sans-serif;
+}

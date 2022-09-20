@@ -1,0 +1,118 @@
+header > .head {
+	width: 100%;
+	position: relative;
+	max-width: 900px;
+    margin: 0 auto;
+}
+header > .head > a {
+	display: block;
+	margin: 0 auto;
+	width: 165px;
+	padding: 20px 0;
+}
+header > .head > a > img {
+	width: 165px;
+}
+header > .head > .navi-btn {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+} 
+/*nav-wrap*/
+header > .nav-wrap {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+	transition: 1s;
+	z-index: 99;
+}
+header > .nav-wrap.on {
+	display: block;
+}
+header > .nav-wrap > .nav-w {
+	position: fixed;
+	width: 80%;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #fff;
+	overflow-y: auto;
+}
+header > .nav-wrap > .nav-w > .nav {
+	position: relative;
+}
+header > .nav-wrap .nav-top {
+	background-color: #454141;
+	padding-left: 20px;
+	position: relative;
+}
+header > .nav-wrap .nav-top > a {
+	font-size: 16px;
+	color: #fff;
+	display: inline-block;
+	padding: 30px 20px 30px 0;
+	position: relative;
+}
+header > .nav-wrap .nav-top > a::after {
+	content: "";
+	width: 1px;
+	height: 14px;
+	background-color: rgba(255, 255, 255, 0.6);
+	position: absolute;
+	right: 7px;
+}
+header > .nav-wrap .nav-top > a:last-child::after {
+	display: none;
+}
+header > .nav-wrap .nav-bot strong {
+	font-size: 24px;
+	color: #25252b;
+	padding: 15px 0 15px 20px;
+	display: block;
+	border-bottom: 2px solid #aaa;
+	position: relative;
+}
+header > .nav-wrap .nav-bot strong::after {
+	content: "";
+	width: 21px;
+	height: 11px;
+	background: url(../img/head/m-nav/arrow-1.png) no-repeat center;
+	right: 45px;
+	top: 20px;
+	position: absolute;
+
+}
+header > .nav-wrap .nav-bot > ul > li.on strong {
+	color: #931b1b;
+}
+header > .nav-wrap .nav-bot > ul > li.on strong::after {
+	transform: rotate(180deg);
+}
+header > .nav-wrap .nav-bot .hidden-area {
+	padding: 15px 0 50px 20px;
+	background-color: #f5f5f5;
+	display: none;
+}
+header > .nav-wrap .nav-bot > ul > li.on .hidden-area {
+	display: block;
+}
+header > .nav-wrap .nav-bot a {
+	font-size: 18px;
+	color: #25252b;
+	line-height: 45px;
+	display: block;
+}
+header > .nav-wrap .btn-close {
+	width: 20px;
+	height: 19px;
+	background: url(../img/head/m-nav/close-btn.png) no-repeat center;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}

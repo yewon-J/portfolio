@@ -1,0 +1,63 @@
+footer {
+	background-color: #931b1b;
+}
+footer > .f-in {
+	margin: 0 auto;
+	width: 90%;
+}
+footer .f-top {
+	padding: 50px 0 10px;
+	border-bottom: 1px solid rgba(255, 255,255, 0.2);
+}
+footer .f-top > .left {
+	float: left;
+	padding-top: 20px;
+}
+footer .f-top > .right {
+	float: right;
+}
+footer .f-top span {
+	position: relative;
+}
+footer .f-top span::after {
+	content: "";
+	height: 15px;
+	width: 1px;
+	background-color: rgba(255, 255, 255, 0.2);
+	position: absolute;
+	right: 6px;
+	bottom: 3px;
+}
+footer .f-top > .left > span:last-child::after {
+	display: none;
+}
+footer .f-top > .right > a:last-child {
+    padding-right: 0;
+}
+footer .f-top a {
+	display: inline-block;
+	font-size: 13px;
+	color: #fff;
+	padding-right: 15px;
+}
+footer .f-bot {
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	line-height: 40px;
+	position: relative;
+}
+footer .f-bot > .logo {
+	background: url(../img/head/twosome-logo-w.svg) no-repeat center / cover;
+	width: 250px;
+	padding-bottom: 42px;
+	margin: 40px auto 20px;
+
+
+}
+footer .f-bot span {
+	padding-right: 12px;
+}
+footer .f-bot p {
+	padding: 40px 0;
+}

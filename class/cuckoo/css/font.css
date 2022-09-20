@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;500;700&display=swap');
+
+@font-face {
+	font-family: 'Gotham';
+	font-weight: 300;
+	src: url(../font/gotham-book.woff) format("woff"),
+		url(../font/gotham-book.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: 'Gotham';
+	font-weight: 500;
+	src: url(../font/gotham-medium.woff) format("woff")
+		url(../font/gotham-medium.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: 'Gotham';
+	font-weight: 700;
+	src: url(../font/gotham-bold.woff) format("woff");
+}
+
+body {
+	font-family: 'Gotham', 'Noto Sans KR', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+}
+.bold {
+	font-weight: 500;
+}

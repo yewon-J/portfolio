@@ -1,0 +1,56 @@
+footer {
+	width: 100%;
+	background-color: #931b1b;
+	font-size: 11px;
+	color: #fff;
+	max-width: 900px;
+	margin: 0 auto;
+}
+footer .t-in {
+	width: 330px;
+	margin: 0 auto;
+}
+footer .f-top {
+	padding: 50px 0;
+}
+footer .f-top > .logo {
+	padding-bottom: 35px;
+	background: url(../img/head/twosome-logo-w.svg) no-repeat center / cover;
+	margin: 0 auto;
+	width: 210px;
+}
+footer address .click > a {
+	font-size: 14px;
+	font-weight: 500;
+	display: inline-block;
+	padding: 0 16px 10px 0; 
+	color: #fff;
+}
+footer address span {
+	font-size: 11px;
+	color: #fff;
+	line-height: 22px;
+	padding-right: 13px;
+	display: block;
+}
+footer address > div > span {
+	display: inline-block;
+}
+footer address > div:last-of-type {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 22px;
+}
+footer address > div:last-of-type span {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	padding: 7px 0;
+	border: 1px solid #fff;
+	width: 160px;
+	/*margin: 15px 10px 0 0;*/
+}
+
+footer address > p {
+	padding: 22px 0 60px 0;
+}

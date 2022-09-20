@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="CUCKOO">
+	<meta name="Author" content="CUCKOO">
+	<meta name="Keywords" content="CUCKOO"> 
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">  
+	<title>CUCKOO</title>
+	<meta property="og:title" content="포트폴리오">
+	<meta property="og:image" content="">
+	<meta property="og:url" content="https://www.cuckoo.co.kr">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="CUCKOO">
+	<link rel="canonical" href=""> 
+	<!--표기되어 있는 url이 표준페이지라고 알려주는 역할-->	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png">	
+	<link rel="apple-touch-icon" href="favicon.png">
+	<!-- 모바일에서 홈화면에 추가되었을 때 아이콘 -->	
+	<link rel="stylesheet" href="../../../css/reset.css">
+	<link rel="stylesheet" href="../css/font.css">
+	<link rel="stylesheet" href="../../../css/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="../css/header_m.css">
+	<link rel="stylesheet" href="../css/main_m.css">
+	<link rel="stylesheet" href="../css/footer_m.css">
+	<script src="../../../js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+	<div id="skip">
+		<a rel="bookmark" href="content">cuckoo content</a>
+	</div>
+	<div id="wrap">
+		<header>
+			<div class="h-top">
+				<div class="h-in">
+					<h1><a href="inex.html"><img src="../files/mo/images/common/logo_header.png" alt=""></a></h1>
+					<ul>
+						<li class="search-btn"><a href="#">검색</a></li>
+						<li class="cart-btn"><a href="#">장바구니</a></li>
+						<li class="navi-btn"><a href="#">메뉴</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="h-bot">
+				<div class="h-in">
+					<nav>
+						<h2 class="hidden">쿠쿠사이트맵</h2>
+						<ul>
+							<li><a href="#">기획전</a></li>
+							<li><a href="#">쿡톡</a></li>
+							<li><a href="#">마이쿠쿠</a></li>
+							<li><a href="#">렌탈상담</a></li>
+							<li><a href="#">고객센터</a></li>
+							<li><a href="#">이벤트</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="nav-wrap">
+				<div class="nav-in">
+					<div class="nav-top">
+						<span class="bold">로그인</span>이 필요합니다.
+						<span class="gnb-btn">회원가입</span>
+					</div>
+					<div class="nav-bot">
+						<ul class="depth">
+							<li>
+								<span>쿠쿠몰</span>
+								<ul class="hidden-area">
+									<li><a href="#">생활가전</a></li>
+									<li><a href="#">부속품</a></li>
+									<li><a href="#">밥솥</a></li>
+									<li><a href="#">주방가전</a></li>
+									<li><a href="#">펫가전/용품</a></li>
+									<li><a href="#">이미용/건강가전</a></li>
+									<li><a href="#">기타제품</a></li>
+								</ul>
+							</li>
+							<li>
+								<span>쿠쿠렌탈</span>
+								<ul class="hidden-area">
+									<li><a href="#">정수기</a></li>
+									<li><a href="#">공기청정기</a></li>
+									<li><a href="#">비데</a></li>
+									<li><a href="#">매트리스/프레임</a></li>
+									<li><a href="#">기타제품</a></li>
+								</ul>
+							</li>
+							<li class="b2b">
+								<span>B2B문의</span>
+							</li>
+							<li>
+								<span>마이쿠쿠</span>
+								<ul class="hidden-area">
+									<li><a href="#">홈</a></li>
+									<li><a href="#">나의쇼핑</a></li>
+									<li><a href="#">나의렌탈</a></li>
+									<li><a href="#">출장A/S내역</a></li>
+									<li><a href="#">관심제품</a></li>
+									<li><a href="#">1:1문의내역</a></li>
+									<li><a href="#">쿠쿠/포인트</a></li>
+									<li><a href="#">회원정보수정</a></li>
+								</ul>
+							</li>
+							<li>
+								<span>고객센터</span>
+								<ul class="hidden-area">
+									<li><a href="#">홈</a></li>
+									<li><a href="#">스스로제품점검</a></li>
+									<li><a href="#">렌탈상담신청</a></li>
+									<li><a href="#">1:1문의하기</a></li>
+									<li><a href="#">출장A/S신청</a></li>
+									<li><a href="#">서비스센터찾기</a></li>
+									<li><a href="#">제품등록</a></li>
+									<li><a href="#">제품설명서다운로드</a></li>
+									<li><a href="#">제품등록</a></li>
+									<li><a href="#">제품설명서다운로드</a></li>
+									<li><a href="#">쿠쿠매장찾기</a></li>
+									<li><a href="#">해외서비스안내</a></li>
+									<li><a href="#">FAQ</a></li>
+									<li><a href="#">공지사항</a></li>
+								</ul>
+							</li>
+							<li>
+								<span>회사안내</span>
+								<ul class="hidden-area">
+									<li><a href="#">쿠쿠안내</a></li>
+									<li><a href="#">쿠쿠채널</a></li>
+									<li><a href="#">채용정보</a></li>
+									<li><a href="#">투자정보</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<button class="btn-close on"><span class="hidden">전체메뉴닫기</span></button>
+				</div>
+			</div>
+		</header>
+		<script>
+			$('.navi-btn').on("click focus", function() {
+				$('.nav-wrap').addClass("on");
+			})
+			$('.btn-close').on("click focus", function() {
+				$('.nav-wrap').removeClass("on");
+			})
+			$('.depth span').click(function() {
+				$(this).parent().toggleClass("on");
+			})
+		</script>
+		<div id="header-pop">
+			<div class="search-pop">
+				<h2 class="tit hidden">검색</h2>
+				<div class="search-input">
+					<input type="text" placeholder="검색어를 입력해 주세요.">
+					<button class="btn-del"><span class="hidden">삭제</span></button>
+					<button class="btn-search"><span class="hidden">검색</span></button>
+				</div>
+				<div class="recent-box">
+					<p class="tit">최근검색어</p>
+					<p class="no-txt">최근 검색어가 없습니다.</p>
+				</div>
+				<div class="best-box">
+					<p class="tit">인기검색어</p>
+					<ol>
+						<li><a href="#">트윈프레셔밥솥</a></li>
+						<li><a href="#">6인용 식기세척기</a></li>
+						<li><a href="#">파워클론 무선청소기</a></li>
+						<li><a href="#">100도 끓인물정수기</a></li>
+						<li><a href="#">크로스컷블렌더</a></li>
+					</ol>
+					<p class="no-txt" style="display: none;">인기 검색어가 없습니다.</p>
+				</div>
+			</div>
+			<div class="cart-pop">
+				<h2 class="tit">장바구니</h2>
+				<p class="cart-txt">몰 상품과 렌탈 상품은 동시에 결제 할 수 없습니다<br>각각의 장바구니를 확인 해주세요.</p>
+				<div class="cart-box">
+					<div class="left">
+						<p class="tit">쿠쿠몰</p>
+						<div class="img"><span style="display: none;">0</span></div>
+						<p class="txt">장바구니에<br>상품을 담아주세요</p>
+						<a href="#">상품보러 가기</a>
+					</div>
+					<div class="right">
+						<p class="tit">쿠쿠렌탈</p>
+						<div class="img"><span>1</span></div>
+						<p class="txt">장바구니에<br>상품을 담아주세요</p>
+						<a href="#">상품보러 가기</a>
+					</div>
+				</div>
+			</div>
+			<button class="btn-pop-close"><span class="hidden">팝업닫기</span></button>
+		</div>
+		<script>
+			$(".search-btn").click(function() {
+				$("#header-pop").show();
+				$(".search-pop").addClass("on");
+			});
+			$('.search-input > input').keyup(function() {
+				$(".btn-del").show();
+			});
+			$(".btn-del").click(function() {
+				$('.search-input > input').val("");
+			})
+			$(".cart-btn").click(function() {
+				$("#header-pop").show();
+				$(".cart-pop").addClass("on");
+			});
+			$(".btn-pop-close").click(function() {
+				$("#header-pop").hide();
+				$("#header-pop > div").removeClass("on");
+			});
+		</script>
+		<div id="container">
+			<div class="slide-wrap">
+				<div class="swiper-container m-slide">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide" style="background-image: url(../files/mo/upload_cuckoo/_bo_rep/etc/slide01.jpg);">베스트밥솥</div>
+						<div class="swiper-slide" style="background-image: url(../files/mo/upload_cuckoo/_bo_rep/etc/slide02.jpg);">트윈프레셔기획전</div>
+						<div class="swiper-slide" style="background-image: url(../files/mo/upload_cuckoo/_bo_rep/etc/slide03.jpg);">쿨한할인전</div>
+						<div class="swiper-slide" style="background-image: url(../files/mo/upload_cuckoo/_bo_rep/etc/slide04.jpg);">넬로펫상품특가전</div>
+						<div class="swiper-slide" style="background-image: url(../files/mo/upload_cuckoo/_bo_rep/etc/slide05.jpg);">인덕션특집전</div>
+						<div class="swiper-slide" style="background-image: url(../files/mo/upload_cuckoo/_bo_rep/etc/slide07.jpg);">소형밥솥</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+			<script src="../../../js/plugin/swiper-bundle.min.js"></script>
+			<script>
+				const swiper01 = new Swiper('.m-slide', {
+					loop: true,
+
+					pagination: {
+						el: '.swiper-pagination',
+					},
+				});
+			</script>
+			<section id="content" class="pro-sec">
+				<h2>일상을 쿠쿠하세요</h2>
+				<div class="list-tab">
+					<ul>
+						<li class="on"><a href="#">전체</a></li>
+						<li><a href="#;">쿠쿠몰</a></li>
+						<li><a href="#;">쿠쿠렌탈</a></li>
+					</ul>
+				</div>	
+					<div class="swiper-container p-slide">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide mall" data-filter="mall">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/mall/product01.jpg" alt="AC-17T20FWH"></figure>
+									<div class="p-txt">
+										<span>쿠쿠몰</span>
+										<em>공기청정기</em>
+										<strong>AC-17T20FWH</strong>
+										<span>혜택가</span>
+										<strong>235,000원</strong>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide mall" data-filter="mall">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/mall/product02.jpg" alt="CRP-EHS0320FW"></figure>
+									<div class="p-txt">
+										<span>쿠쿠몰</span>
+										<em>IH전기압력밥솥</em>
+										<strong>CRP-EHS0320FW</strong>
+										<span>혜택가</span>
+										<strong>258,000원</strong>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide mall" data-filter="mall">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/mall/product03.jpg" alt="AC-25W20FPMO"></figure>
+									<div class="p-txt">
+										<span>쿠쿠몰</span>
+										<em>공기청정기</em>
+										<strong>AC-25W20FPMO</strong>
+										<span>혜택가</span>
+										<strong>339,000원</strong>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide mall" data-filter="mall">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/mall/product04.jpg" alt="CRP-CHP1010PD"></figure>
+									<div class="p-txt">
+										<span>쿠쿠몰</span>
+										<em>IH전기압력밥솥</em>
+										<strong>CRP-CHP1010PD</strong>
+										<span>혜택가</span>
+										<strong>300,000원</strong>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide mall" data-filter="mall">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/mall/product05.jpg" alt="AC-34U20FWS"></figure>
+									<div class="p-txt">
+										<span>쿠쿠몰</span>
+										<em>공기청정기</em>
+										<strong>AC-34U20FWS</strong>
+										<span>혜택가</span>
+										<strong>459,000원</strong>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide mall" data-filter="mall">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/mall/product06.jpg" alt="CRP-JHR0660FD"></figure>
+									<div class="p-txt">
+										<span>쿠쿠몰</span>
+										<em>IH전기압력밥솥</em>
+										<strong>CRP-JHR0660FD</strong>
+										<span>혜택가</span>
+										<strong>318,000원</strong>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide mall" data-filter="mall">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/mall/product07.png" alt="AC-12XP20FH"></figure>
+									<div class="p-txt">
+										<span>쿠쿠몰</span>
+										<em>공기청정기</em>
+										<strong>AC-12XP20FH</strong>
+										<span>혜택가</span>
+										<strong>156,000원</strong>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide mall" data-filter="mall">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/mall/product08.jpg" alt="CRP-LHTR0610FW"></figure>
+									<div class="p-txt">
+										<span>쿠쿠몰</span>
+										<em>IH전기압력밥솥</em>
+										<strong>CRP-LHTR0610FW</strong>
+										<span>혜택가</span>
+										<strong>478,000원</strong>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide ren" data-filter="ren">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/rental/rental01.jpg" alt="CP-TS100S"></figure>
+									<div class="p-txt">
+										<span>쿠쿠렌탈</span>
+										<em>정수기</em>
+										<strong>CP-TS100S</strong>
+										<span>혜택가</span>
+										<strong class=".mt">38,900원</strong>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide ren" data-filter="ren">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/rental/rental02.jpg" alt="CP-TS011S"></figure>
+									<div class="p-txt">
+										<span>쿠쿠렌탈</span>
+										<em>정수기</em>
+										<strong>CP-TS011S</strong>
+										<span>혜택가</span>
+										<strong class=".mt">34,900원</strong>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide ren" data-filter="ren">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/rental/rental03.png" alt="AC-23U10FWS"></figure>
+									<div class="p-txt">
+										<span>쿠쿠렌탈</span>
+										<em>ULTRA 12000 공기청정기</em>
+										<strong>AC-23U10FWS</strong>
+										<span>혜택가</span>
+										<strong class=".mt">49,900원</strong>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide ren" data-filter="ren">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/rental/rental04.jpg" alt="CBT-IS1031RW"></figure>
+									<div class="p-txt">
+										<span>쿠쿠렌탈</span>
+										<em>비데</em>
+										<strong>CBT-IS1031RW</strong>
+										<span>혜택가</span>
+										<strong class=".mt">24,900원</strong>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide ren" data-filter="ren">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/rental/rental05.png" alt="CBT-G1031W"></figure>
+									<div class="p-txt">
+										<span>쿠쿠렌탈</span>
+										<em>인스퓨어 이지필터 비데</em>
+										<strong>CBT-G1031W</strong>
+										<span>혜택가</span>
+										<strong class=".mt">9,900원</strong>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide ren" data-filter="ren">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/rental/rental06.jpg" alt="CP-SS011HW"></figure>
+									<div class="p-txt">
+										<span>쿠쿠렌탈</span>
+										<em>정수기</em>
+										<strong>CP-SS011HW</strong>
+										<span>혜택가</span>
+										<strong class=".mt">50,900원</strong>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide ren" data-filter="ren">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/rental/rental07.png" alt="AC-25W10FWH"></figure>
+									<div class="p-txt">
+										<span>쿠쿠렌탈</span>
+										<em>W8200 공기청정기</em>
+										<strong>AC-25W10FWH</strong>
+										<span>혜택가</span>
+										<strong class=".mt">32,900원</strong>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide ren" data-filter="ren">
+								<a href="#">
+									<figure><img src="../files/upload_cuckoo/rental/rental08.jpg" alt="AC-12X10FW"></figure>
+									<div class="p-txt">
+										<span>쿠쿠렌탈</span>
+										<em>인앤아웃 에어 안심 공기청정기</em>
+										<strong>AC-12X10FW</strong>
+										<span>혜택가</span>
+										<strong class=".mt">23,900원</strong>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="swiper-scrollbar"></div>
+					</div>
+			</section>
+			<script>
+				$('.list-tab li').click(function() {
+				  	$(this).addClass("on").add().siblings().removeClass("on");
+
+				  	var index = $(this).index();
+				  	var filter = (index == 0) ? "all" : (index == 1) ? ".mall" : ".ren";
+
+				  	if(filter == "all") {
+				  		$('.p-slide').find(".mall").show();
+				  		$('.p-slide').find(".ren").show();
+				  	}else {
+				  		$('.p-slide').find(".mall").hide();
+				  		$('.p-slide').find(".ren").hide();
+				  		$('.p-slide').find(filter).show();
+				  	}
+
+				  		swiper02.updateSlides();
+				  		swiper02.slideTo(0);
+				  		swiper02.scrollbar.updateSize();
+
+				  		return false;
+
+
+
+				  });
+
+				
+				 const swiper02 = new Swiper(".p-slide", {
+			      	slidesPerView: 1.3,
+	        		spaceBetween: 25,
+
+			        scrollbar: {
+			          el: ".swiper-scrollbar",
+			        },
+
+			        breakpoints: {		          
+			          580: {
+			            slidesPerView: 2.3,
+			            spaceBetween: 25,
+			          },
+			        },
+			      });	
+
+				
+
+			</script>
+			<section class="best-sec">
+				<h2>가장 많이 사랑받은 쿠쿠</h2>
+				<div class="swiper-container b-slide">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<ul class="clearfix">
+								<li>
+									<a href="#">
+										<figure><img src="../files/upload_cuckoo/product/pd01.jpg" alt="CRP-LHTR0610FW"></figure>
+										<span class="info">
+											<em class="tag">#TVCF밥솥</em>
+											<em class="name">CRP-LHTR0610FW</em>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="../files/upload_cuckoo/product/pd02.jpg" alt="CRP-HSXB0630FB"></figure>
+										<span class="info">
+											<em class="tag">#음성밥솥</em>
+											<em class="name">CRP-HSXB0630FB</em>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="../files/upload_cuckoo/product/pd03.jpg" alt="CRP-DHB0660FDM"></figure>
+										<span class="info">
+											<em class="tag">#풀스테인리스밥솥</em>
+											<em class="name">CRP-DHB0660FDM</em>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="../files/upload_cuckoo/product/pd04.jpg" alt="CRP-JHTR1010FD"></figure>
+										<span class="info">
+											<em class="tag">#트윈프레셔밥솥</em>
+											<em class="name">CRP-JHTR1010FD</em>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="swiper-slide">
+							<ul class="clearfix">
+								<li>
+									<a href="#">
+										<figure><img src="../files/upload_cuckoo/product/pd05.jpg" alt="CRP-DHP0610FD"></figure>
+										<span class="info">
+											<em class="tag">#인기밥솥</em>
+											<em class="name">CRP-DHP0610FD</em>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="../files/upload_cuckoo/product/pd06.jpg" alt="CRP-CHP1010FD"></figure>
+										<span class="info">
+											<em class="tag">#인기밥솥</em>
+											<em class="name">CRP-CHP1010FD</em>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="../files/upload_cuckoo/product/pd07.jpg" alt="CR-0675FW"></figure>
+										<span class="info">
+											<em class="tag">#에그밥솥</em>
+											<em class="name">CR-0675FW</em>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="../files/upload_cuckoo/product/pd08.jpg" alt="CRP-EHS0320FS"></figure>
+										<span class="info">
+											<em class="tag">#3인용밥솥</em>
+											<em class="name">CRP-EHS0320FS</em>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="swiper-slide">
+							<ul class="clearfix">
+								<li>
+									<a href="#">
+										<figure><img src="../files/upload_cuckoo/product/pd09.jpg" alt="CP-TS100S"></figure>
+										<span class="info">
+											<em class="tag">#끓인물정수기</em>
+											<em class="name">CP-TS100S</em>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="../files/upload_cuckoo/product/pd10.jpg" alt="CP-TS011S"></figure>
+										<span class="info">
+											<em class="tag">#셀프직수정수기</em>
+											<em class="name">CP-TS011S</em>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="../files/upload_cuckoo/product/pd11.jpg" alt="AC-34U10FWS"></figure>
+										<span class="info">
+											<em class="tag">#34평형공기청정기</em>
+											<em class="name">AC-34U10FWS</em>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="../files/upload_cuckoo/product/pd12.jpg" alt="CPT-IS1031RW"></figure>
+										<span class="info">
+											<em class="tag">#리모콘비데</em>
+											<em class="name">CPT-IS1031RW</em>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="swiper-slide">
+							<ul class="clearfix">
+								<li>
+									<a href="#">
+										<figure><img src="../files/upload_cuckoo/product/pd13.jpg" alt="CBT-G1031W"></figure>
+										<span class="info">
+											<em class="tag">#인기비데</em>
+											<em class="name">CBT-G1031W</em>
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<figure><img src="../files/upload_cuckoo/product/pd14.jpg" alt="AC-25W10FWH"></figure>
+										<span class="info">
+											<em class="tag">#25평형공기청정기</em>
+											<em class="name">AC-25W10FWH</em>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>	
+			</section>
+			<script>
+				 const swiper03 = new Swiper(".b-slide", {
+			      	loop: true,
+			      	spaceBetween: 10,
+
+			        pagination: {
+			          el: ".swiper-pagination",
+			        },
+ 				});
+			</script>	
+			<section class="channel-sec">
+				<h2>쿠쿠채널</h2>
+				<div class="swiper-container c-slide">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="#">
+								<figure>
+									<img src="../files/mo/upload_cuckoo/_bo_rep/channel/rep01.jpg" alt="">
+								</figure>
+								<p>얼음의 탑클래스! 쿠쿠 인스퓨어<br>셀프직수 얼음정수기</p>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">
+								<figure>
+									<img src="../files/mo/upload_cuckoo/_bo_rep/channel/rep02.jpg" alt="채널이미지">
+								</figure>
+								<p>100℃ 끓인물 정수기, 이제 끓이는 정수기 시대</p>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">
+								<figure>
+									<img src="../files/mo/upload_cuckoo/_bo_rep/channel/rep03.jpg" alt="채널이미지">
+								</figure>
+								<p>길어진 실내생활 지금 필요한 건<br>인스퓨어 공기청정기</p>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<figure>
+									<img src="../files/mo/upload_cuckoo/_bo_rep/channel/rep04.jpg" alt="채널이미지">
+								</figure>
+								<p>쿠쿠만의 미식가전<br>쿠쿠 트윈프레셔</p>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">
+								<figure>
+									<img src="../files/mo/upload_cuckoo/_bo_rep/channel/rep05.jpg" alt="채널이미지">
+								</figure>
+								<p>또 하나의 미식가전<br>쿠쿠 초고온 인덕션레인지</p>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">
+								<figure>
+									<img src="../files/mo/upload_cuckoo/_bo_rep/channel/rep01.png" alt="채널이미지">
+								</figure>
+								<p>쿠쿠식기세척기<br>최고라고 불리울 수 있는건 단하나!</p>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#">
+								<figure>
+									<img src="../files/mo/upload_cuckoo/_bo_rep/channel/rep02.png" alt="채널이미지">
+								</figure>
+								<p>국민청소기 탄생!<br>쿠쿠 인스퓨어 '파워클론' 무선청소기</p>
+							</a>
+						</div>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</section>
+			<script>
+				const swiper04 = new Swiper(".c-slide", {
+					loop: true,
+
+					pagination: {
+						el: ".swiper-pagination"
+					},
+				});
+			</script>
+			<section class="serv-sec">
+				<h2>고객서비스</h2>
+				<div class="serv box">
+					<div class="serv-in">
+						<ul class="clearfix">
+							<li>
+								<a href="#">
+									<figure><img src="../files/images/main/temp_section05_prd01.png" alt="서비스센터"></figure>
+									<h3>서비스센터</h3>
+									<p>가까운 서비스 센터에서<br>빠르게 수리하세요.</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure><img src="../files/images/main/temp_section05_prd02.png" alt="쿠쿠매장"></figure>
+									<h3>쿠쿠매장</h3>
+									<p>원하는 매장에서 다양한 제품을<br>직접 보고 구매하세요.</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure><img src="../files/images/main/temp_section05_prd03.png" alt="출장A/S신청"></figure>
+									<h3>출장A/S신청</h3>
+									<p>전문기사가 직접 방문하여 맞춤<br>서비스를 제공해 드립니다.</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer>
+			<div class="foot-top">
+				<strong>고객센터</strong>
+				<p>상담시간 평일: 09시~18시/토요일: 09시~13시/일요일, 공휴일: 휴무</p>
+				<p>제품 전화주문은 쿠쿠몰로 문의해주세요.</p>
+				<ul>
+					<li><strong>쿠쿠몰문의</strong><em>080-720-9999</em></li>
+					<li><strong>서비스문의</strong><em>1588-8899</em></li>
+					<li><strong>렌탈문의</strong><em>1577-0010</em></li>
+				</ul>
+				<div>
+					<a href="#">이용약관</a>
+					<a href="#" class="color">개인정보취급방침</a>
+					<a href="#" class="color">SAFEKEY 발급</a>
+				</div>
+				<div class="select-fmsite">
+					<select id="foot-fmsite">
+						<option value="패밀리사이트">패밀리사이트</option>
+						<option value="http://www.nelloshop.co.kr">넬로샵</option>
+						<option value="http://www.cuckoo.jp">일본</option>
+						<option value="http://www.cuckoo.com.my">말레이시아</option>
+						<option value="http://www.cuckoo.co.id">인도네시아</option>
+						<option value="http://www.cuckooindia.in">인도</option>
+						<option value="http://www.cuckoovina.com">베트남</option>
+						<option value="http://www.cuckoo.cn">중국</option>
+						<option value="http://welfare.cuckoo.co.kr">쿠쿠사회복지재단</option>
+					</select>
+				</div>
+			</div>
+			<div class="foot-bot">
+				<div class="foot-acodian">
+					<span>사업자정보확인</span>
+					<div class="hidden-area">
+				        <div class="address-wrap">
+				        	<strong>쿠쿠홀딩스</strong>
+				        	<p class="txt">
+				        		대표이사 : 구본학  본사 : 경상남도 양산시 유산공단2길14<br>
+				        		사업자등록번호 : 621-81-02895<br>
+				        		이메일 : webmaster@cuckoo.co.kr
+				        	</p>
+				        	<p class="copy">COPYRIGHT&copy;CUCKOO HOLDINGS ALL RIHGHTS RESERVED</p>
+				        </div>
+				        <div class="address-wrap">
+				        	<strong>쿠쿠전자</strong>
+				        	<p class="txt">
+				        		대표이사 : 구본학  본사 : 경상남도 양산시 유산공단2길14<br>
+				        		사업자등록번호 : 337-87-00918<a href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=3378700918">통신판매번호</a><br>
+				        		통신판매신고 : 제2017-경남양산-00367호<br>
+							 	개인정보관리책임자 : 온라인유통팀 주영준<br>
+							 	이메일 : kmkim@cuckoo.co.kr<br>
+							 	구매안전서비스 : 에스크로가입정보	<a href="https://npg.nicepay.co.kr/issue/issueEscrow.do?Mid=cuckooel1m&CoNo=3378700918">에스크로가입사실확인</a><br>
+				        	</p>
+				        	<p class="copy">COPYRIGHT&copy;CUCKOO ELACTRONICS ALL RIHGHTS RESERVED</p>
+				        </div>
+				        <div class="address-wrap">
+				        	<strong>쿠쿠홈시스</strong>
+				        	<p class="txt">
+				        		대표이사 : 구본학  본사 : 경기도 시흥시 엠티브이북로 349<br>
+				        		사업자등록번호 : 590-87-00993<a href="https://www.ftc.go.kr/bizCommPop.do?wrkr_no=3378700918">통신판매번호</a><br>
+				        		통신판매신고 : 제2017-경기시흥-0894호<br>
+							 	개인정보관리책임자 : 마케팅팀 천승국<br>
+							 	이메일 : rentalcuckoo@cuckoo.co.kr<br>
+							 	B2B문의상담: jnahn@cuckoo.co.kr<br>
+							 	구매안전서비스 : 에스크로가입정보	<a href="https://npg.nicepay.co.kr/issue/issueEscrow.do?Mid=cuckooel1m&CoNo=3378700918">에스크로가입사실확인</a><br>
+				        	</p>
+				        	<p class="copy">COPYRIGHT&copy;CUCKOO HOMESYS ALL RIHGHTS RESERVED</p>
+				        </div>
+					</div>
+				</div>
+				<p>쿠쿠홀딩스/전자/홈시스 사이트의 콘텐츠는 저작권법의 보호를<br> 받는 바 무단 전재, 복사, 배포를 금합니다.</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,457 @@
+#wrap {
+	width: 100%;
+	min-width: 1360px;
+	/* 적응형 pc사이트니까 min-width를 적용 */
+}
+section h2 {
+	font-weight: 500;
+	font-size: 38px;
+	text-align: center;
+	margin-bottom: 1.57px;
+	color: #312f2d;
+	padding-bottom: 60px;
+}
+
+.c-slide, section {
+	margin-bottom: 120px;
+}
+section {
+	padding-top: 120px;
+}
+/*메인슬라이드*/
+.c-slide .c-bg {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: auto 100%;
+}
+.c-slide .c-bg > a {
+	display: block;
+	width: 100%;
+	/*height: 680px;*/
+	padding-bottom: 36%;
+	position: relative;
+}
+.slick-prev, .slick-next {
+	width: 27px;
+	height: 50px;
+	background: url(../files/images/common/ico_zip.png) no-repeat -369px -432px;
+	z-index: 85;
+
+}
+.slick-prev {
+	left:  8%;
+}
+.slick-next {
+	right: 8%;
+	background-position: -429px -432px;
+}
+.slick-prev:before, .slick-next:before {
+	content: "";
+}
+.slick-dots {
+	bottom: 35px;
+}
+.slick-dots li {
+	width: 60px;
+	height: 5px;
+	background-color: #e9e8eb;
+	border-radius: 20px;
+}
+.slick-dots li.slick-active {
+	background-color: #7a101b;
+}
+.slick-dots li button:before {
+	content:  "";
+}
+
+/*.c-txt {
+	font-size: 60px;
+	font-weight: bold;
+	position: absolute;
+	left: 20px;
+	bottom: 150px;
+	transform: translateY(200px);
+	opacity: 0;
+	transition: 0.8s cubic-bezier(0.74,-0.86, 0.85, 1.63);
+}
+div.slick-active .c-txt {
+	transform: translateY(0);
+	opacity: 1;
+}*/
+/*일상쿠쿠*/
+.pro-sec {
+	position: relative;
+}
+.pro-sec .right-tab {
+	position: absolute;
+	right: 20%;
+	top: 20%;
+}
+.pro-sec .right-tab li {
+	font-size: 17px;
+	color: #585858;
+	display: inline-block;
+	margin-left: 20px;
+	padding-bottom: 8px;
+}
+.pro-sec .right-tab li.on {
+	font-weight: bold;
+	border-bottom: 2px solid #312f2d;
+}
+.pro-sec .right-tab a {
+	color:  #585858;
+}
+.pro-sec .right-tab li.on a {
+	color: #312f2d;
+}
+.p-slide .p-box {
+	margin: 0 20px;
+	/*background-color: orange;*/
+}
+.p-slide .slick-prev, .p-slide .slick-next {
+	width: 50px;
+	height: 50px;
+	background-position: -556px 0;
+	z-index: 85;
+
+}
+.p-slide .slick-prev {
+	left:  27%;
+}
+.p-slide .slick-next {
+	right: 27%;
+	background-position: -644px 0;
+}
+/*.p-slide .slick-prev:before, .p-slide .slick-next:before {
+	content: "";
+}*/
+.p-slide a {
+	color: #312f2d;
+	display: block;
+	width: 750px;
+	/*display: flex;
+	align-items: center;
+	justify-content: space-between;*/
+}
+.p-slide figure {
+	width: 400px;
+	float: left;
+}
+.p-slide img {
+	width: 100%;
+}
+.p-slide .p-txt {
+	float: right;
+	width: 320px;
+	padding: 85px 20px 105px;
+	box-sizing: border-box;
+	background-color: rgba(128, 128, 128, 0.1);
+}
+.p-slide .p-txt > span:first-child {
+	display: inline-block;
+	font-size: 13px;
+	color: #585856;
+	border-radius: 1.1em;
+	border: 1px solid #585856;
+	padding: 8px 14px 7px 14px;
+}
+.p-slide .p-txt > em {
+	display: block;
+	font-size: 17px;
+	color: #585856;
+	margin-top: 1em;
+}
+.p-slide .p-txt > strong {
+	font-size: 25px;
+	font-weight: 700;
+	margin-top: 1em;
+	display: block;
+}
+.p-slide .p-txt > span:nth-child(4) {
+	font-size: 17px;
+	display: block;
+	margin-top: 2em;
+	margin-bottom: 0.6em;
+}
+.p-slide .p-txt > strong:last-child {
+	font-size: 32px;
+	font-weight: 700;
+}
+.p-slide .p-txt > .mt::before {
+	content: "월 ";
+	font-size: 28px;
+
+}
+
+/*b-slide*/
+.best-sec > .best-in {
+	width: 1180px;
+	margin: 0 auto;
+}
+.b-slide a {
+	color: #312f2d;
+}
+.b-slide figure {
+	width: 280px%;
+}
+.b-slide img {
+	width: 100%;
+}
+.b-slide .info {
+	text-align: center;
+}
+.b-slide .info > .tag {
+	color: #8a8b87;
+}
+.b-slide .info > .prd-name {
+	font-size: 20px;
+	font-weight: 500;
+	margin-top:  15px;
+}
+.b-slide .slick-prev {
+	left:  -5%;
+}
+.b-slide .slick-next {
+	right:  -5%;
+}
+.b-slide .slick-dots {
+	bottom: auto;
+	top: -90px;
+	right: 0;
+	text-align: right;
+}
+.b-slide .slick-dots li {
+	width: 15px;
+	height: 15px;
+	background-color: #c4c5c3;
+	border-radius: 8px;
+	margin-left: 30px;
+}
+.b-slide .slick-dots li.slick-active {
+	background-color: #7a101b;
+}
+/*쿠쿠채널 섹션*/
+.cha-sec a {
+	color: #312f2d;
+	font-size: 30px;
+	display: block;
+	position: relative;
+}
+.cha-sec a::before {
+	content: "";
+	display: block;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -50px 0 0 -50px;
+	background: url("../files/images/common/ico_zip.png") no-repeat -528px -91px;
+}
+figure { background: yellow; }
+.cha-sec p {
+	width: 780px;
+	height: 160px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin: -50px auto 0;
+	position: relative;
+}
+.slick-prev {
+	left:  19.5%;
+}
+.slick-next {
+	right: 19.5%;
+}
+.ch-slide .slick-slide {
+	transform: scale(1, 0.9);
+	transition: 0.3s;
+}
+.ch-slide .slick-active {
+	transition: 0.3s;
+	transform: scale(1);
+}
+.ch-slide .slick-slide + .slick-slide {
+	margin-left: 120px;
+}
+.ch-slide .slick-dots {
+	bottom: 0;
+}
+.ch-slide .slick-dots li {
+	width: 15px;
+	height: 15px;
+	background-color: #c4c5c3;
+	border-radius: 8px;
+	margin-left: 30px;
+}
+.ch-slide .slick-dots li.slick-active {
+	background-color: #7a101b;
+}
+/*self-sec*/
+.self-sec {
+	width: 100%;
+	height: 500px;
+	background: url(../files/images/main/bg_section04.png) no-repeat;
+	text-align: center;
+	margin: 100px 0 0;
+	padding-top: 100px;
+}
+.self-sec > h2 {
+	margin-bottom: 25px;
+	display: block;
+	font-weight: 700;
+	color: #312f2d;
+	padding-bottom: 0;
+}
+.self-sec > p {
+	font-size: 20px;
+	color: #585856;
+	line-height: 28px;
+	letter-spacing: -1px;
+}
+.self-sec > p:nth-child(3) {
+	padding-bottom: 20px;
+}
+.self-sec > .search-box {
+	width: 980px;
+	margin: 25px auto 0;
+	text-align: left;
+	padding:  40px 60px 50px;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-radius: 20px;
+	box-shadow: 0 30px 20px 5px rgb(220, 220, 220);
+}
+.self-sec .select-box {
+	width: 200px;
+	float: left;
+	margin-right: 30px;
+	position: relative;
+}
+.self-sec .select-box:nth-child(3) {
+	width: 300px;
+}
+.self-sec .select-box > .tit {
+	font-size: 17px;
+	color:  #585856;
+	position: relative;
+	border-bottom: 3px solid #312f2d;
+	font-weight: 500;
+	display: block;
+	padding:  0 10px;
+	height: 50px;
+	box-sizing: border-box;
+	line-height: 50px;
+}
+.self-sec .select-box > .tit::after {
+	content: "";
+	width: 17px;
+	height: 10px;
+	position: absolute;
+	background: url(../files/images/common/ico_zip.png) no-repeat -738px 0;
+	right: 10px;
+	bottom: 16px;
+}
+.self-sec .select-box.on > .tit::after {
+	transform: rotate(180deg);
+}
+.self-sec .select-box > ul {
+	position: absolute;
+	/*display: none;*/
+	top: 49px;
+	left: 0;
+	width: 100%;
+	border:  1px solid #312f2d;
+	background-color: #fff;
+	z-index: 10;
+	overflow-y: auto;
+	max-height: 190px;
+	box-sizing: border-box;
+}
+.self-sec .select-box.on > ul {
+	display: block;
+}
+.self-sec .select-box a {
+	color: #312f2d;
+	display: block;
+	padding: 16px 20px;
+}
+.self-sec .category a:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.self-sec .select-box .category {
+	display: none;
+}
+.self-sec .self-btn {
+	background-color: #312f2d;
+	color: #fff;
+	border-radius: 25px;
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+	padding: 0 24px;
+	height: 50px;
+	position: absolute;
+	cursor: pointer;
+}
+/*서비스섹션*/
+.serv-sec {
+	margin-top: 0;
+	padding-top: 0;
+}
+.serv-sec > .serv-in {
+	width: 1270px;
+	margin: 0 auto;
+	text-align: center;
+}
+@media screen and (max-width: 1480px) {
+	.serv-sec > .serv-in {
+		width: 96%;
+	}
+}
+.serv-sec ul {
+	width: 100%;
+}
+.serv-sec a {
+	display: block;
+	color: #312f2d;
+
+}
+.serv-sec li {
+	width: 32.5%;
+	float: left;
+	transform: translateY(500px);
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.5s cubic-bezier(0.8, -1.04, 0, 1.66);
+}	
+.serv-sec .delay1 {
+	transition-delay: 0.2s;
+}
+.serv-sec .delay2 {
+	transition-delay: 0.4s;
+}
+.serv-sec li.active {
+	opacity: 1;
+	transform: translateY(0);
+	visibility: visible;
+}
+.serv-sec li:nth-child(2) {
+	margin-left: 1.25%;
+}
+.serv-sec li:last-child {
+	float: right;
+}
+.serv-sec img {
+	width: 100%;
+	height: auto;
+}
+.serv-sec h3 {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 30px 0;
+}
+

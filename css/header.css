@@ -1,0 +1,143 @@
+/*header*/
+header {
+    width: 100%;
+    height: 100px;
+}
+header > .inner {
+    width: 1250px;
+    margin: 0 auto;
+}
+header .logo {
+    float: left;
+}
+header .logo > h1 {
+    text-align: center;
+}
+header .logo a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 900;
+    background: #95c0d0;
+    margin-top: 30px;
+    color: #fff;
+    border-radius: 50%;
+}
+header nav {
+    width: 450px;
+    height: 100px;
+    float: right;
+}
+header nav > ul {
+    display: flex;
+}
+header nav > ul > li {
+    width: 150px;
+    text-align: center;
+    border: 1px dotted #fff;
+    background: url(../img/nav.png)no-repeat center / 100px;
+}
+/*header nav > ul > li:nth-child(2) {
+    
+}
+header nav > ul > li:last-child {
+    
+}*/
+header nav > ul > li > a {
+    color: #666;
+    font-weight: 600;
+    line-height: 100px;
+}
+header nav > ul > li > a:hover {
+    color: #fff;
+}
+header .menu {
+    float: right;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    margin-top: 35px;
+    display: none;
+    z-index: 90;
+}
+header .menu > .m-btn {
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    background-color: #95c0d0;
+    top: 14px;  
+}
+header.on .menu > .m-btn {
+    background-color: transparent;
+    
+}
+header .menu > .m-btn::after {
+    content: "";
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    background-color: #95c0d0;
+    top: -14px;
+}
+header.on .menu > .m-btn::after {
+    background-color: #fff;
+    transform: rotate(-45deg) translate(-10px, 10px);
+}
+header .menu > .m-btn::before {
+    content: "";
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    background-color: #95c0d0;
+    bottom: -14px;
+}
+header.on .menu > .m-btn::before {
+    background-color: #fff;
+    transform: rotate(45deg) translate(-10px,-10px);
+}
+header .m-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #95c0d0;
+    float: none;
+    transform: translateX(100%);
+    transition: 0.5s;
+    z-index: 80;
+}
+header.on .m-nav {
+    transform: translateX(0);
+}
+header .m-nav > ul {
+    padding: 200px 0 0 100px;
+}
+header .m-nav > ul > li {
+    padding-bottom: 50px;
+}
+header .m-nav > ul > li > a {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media (max-width: 1250px) {
+    header > .inner {
+        width: 90%;
+    }
+}
+@media (max-width: 1024px) {
+    header nav {
+        display: none;
+    } 
+    header .menu {
+        display: block;
+    }
+}
+
+
+

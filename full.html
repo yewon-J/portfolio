@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="문서의정보">
+	<meta name="Author" content="저작권">
+	<meta name="Keywords" content="검색할 수 있는 단어"> 
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">  
+	<title>Document</title>
+	<meta property="og:title" content="포트폴리오">
+	<meta property="og:image" content="http://oneyi2.dothome.co.kr/lion.png">
+	<meta property="og:url" content="http://oneyi2.dothome.co.kr">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="개인포트폴리오사이트입니다.">
+	<link rel="canonical" href="http://oneyi2.dothome.co.kr/"> 
+	<!--표기되어 있는 url이 표준페이지라고 알려주는 역할-->	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.png">	
+	<link rel="apple-touch-icon" href="favicon.ico">
+	<!-- 모바일에서 홈화면에 추가되었을 때 아이콘 -->	
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fullpage/fullpage.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/plugin/fullpage.js"></script>
+
+	<style>
+		#menu {
+			position: fixed;
+			z-index: 99;
+		}
+    	.myContent {
+        	height: 194px;
+    	}
+	</style>
+</head>
+<body>
+	<header>
+		헤더
+	</header>
+	
+	<ul id="menu" class="fp-menu">
+		<li data-menuanchor="Dkgholdings"><a href="#Dkgholdings">Main</a></li>
+		<li data-menuanchor="Business"><a href="#Business">Business</a></li>
+		<li data-menuanchor="Portfolio"><a href="#Portfolio">Portfolio</a></li>
+		<li data-menuanchor="Community"><a href="#Community">Community</a></li>
+	</ul>
+
+	<script>
+		$(function() {
+			$('.fp-menu').addClass('on');
+		});
+	</script>
+
+	<div id="fullpage">
+		<div class="section sec1">
+			<div class="sec-txt">
+				<span>WE WILL MAKE IT HAPPEN</span>
+				<p>다양한 분양의 개발사업을 통해<br>고객만족을 실현하는 최고의 <strong>부동산 개발 전문기업</strong></p>
+			</div>
+		</div>
+		<div class="section sec2">
+			<div class="sec-txt">
+				<span>BUSINESS</span>
+				<p>최고의 전문가들이 시작부터 준공까지 참여하여<br>고객의 모든 요구를 가능하게 만드는 <strong>부동산 개발 전문기업</strong></p>
+			</div>
+			<ul class="icon-list">
+				<li class="icon1">
+					<a href="#">
+						<strong>개발부문</strong>
+						<p>공동주택&주상복합&오피스텔, 도시개발사업,<br> 택지개발지구 주택사업, 복합용도개발사업, <br>공모사업</p>
+					</a>
+				</li>
+				<li class="icon2">
+					<a href="#">
+						<strong>마케팅부문</strong>
+						<p>상품분석, 입지 및 분양환경 분석, <br>마케팅 전략수립</p>
+					</a>
+				</li>
+				<li class="icon3">
+					<a href="#">
+						<strong>PM/컨설팅</strong>
+						<p>사업성검토 및 환경분석, 토지매입, <br>컨셉 및 상품 기획 등</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="section sec3">
+			<div class="sec-txt">
+				<span>PORTFOLIO</span>
+				<p>최고의 부동산 개발 전문가들이 진행한<br><strong>최고의 결과물</strong></p>
+				<a href="#">VIEW MORE</a>
+			</div>
+			<div class="sec3-slider">
+				<div class="pic1">
+					<a href="#">
+						<img src="img/main/o_1dd2f2gso12aqlg9q0p1h1nqfqa.jpg" alt="txt">
+						<strong>법곳대화지구 도시개발사업</strong>
+					</a>
+				</div>
+				<div class="pic2">
+					<a href="#">
+						<img src="img/main/o_1dd2fmnt71e0e5aaril3qgq2va.jpg" alt="txt">
+						<strong>경기 광주 센트럴푸르지오</strong>
+					</a>
+				</div>
+				<div class="pic3">
+					<a href="#">
+						<img src="img/main/o_1dd2fl7lq5pa8pf62s1mnk1k05a.jpg" alt="txt">
+						<strong>천호역 한강 푸르지오 시티</strong>
+					</a>
+				</div>
+				<div class="pic4">
+					<a href="#">
+						<img src="img/main/o_1esjraihchb7op91c3fv9e1pu2a.jpg" alt="txt">
+						<strong>인천 대곡3-1,3-2구역 도시개발사업</strong>
+					</a>
+				</div>
+				<div class="pic5">
+					<a href="#">
+						<img src="img/main/o_1eshtcqmc14db193mmmn66e15b3a.jpg" alt="txt">
+						<strong>부산사상공원 민간조성특례사업</strong>
+					</a>
+				</div>
+			</div>
+		</div>
+		<script>
+			$('.sec3-slider').slick({
+				slidesToShow: 3,
+				slidesToScroll: 1
+			})
+		</script>
+		<div class="section sec4">
+			<div class="sec-txt">
+				<span>COMMUNITY</span>
+				<p>다양한 경험을 통한 최적의<br><strong>개발 방안 제공</strong></p>
+			</div>
+			<ul class="ani-list btn-list">
+				<li>
+					<a href="#">회사소개서</a>
+				</li>
+				<li class="ani2">
+					<a href="#">온라인 문의</a>
+				</li>
+				<li class="ani3">
+					<a href="#">공지사항</a>
+				</li>
+			</ul>
+		</div>
+		<div class="section fp-auto-height">
+			<div class="myContent">
+				<a href="#"><strong>개인정보취급방침</strong></a>
+				<p>(주)디케이지홀딩스 대표 : 강민성</p>
+				<address>주소 : 서울시 강남구 영등대로 611, 10층(찬앤타워) TEL. 02-553-7410 FAX. 02-553-7409</address>
+				<p>Copyright © 2019 DKG Holidings All rights reserved.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="scroll">
+		<span>Scroll</span>
+	</div> -->
+
+	<script type="text/javascript">
+	  var myFullpage = new fullpage('#fullpage', {
+	      verticalCentered: true,
+	      anchors: ['Dkgholdings', 'Business', 'Portfolio', 'Community', 'footer' ],
+	      menu: '#menu',
+	      sectionsColor: ['#F8FBa4', '#FEEEA9', '#C1D7C2','#B2786A', '#fff']
+	  });
+	</script>
+</body>
+</html>

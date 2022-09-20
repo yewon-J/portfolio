@@ -1,0 +1,254 @@
+#wrap {
+	width: 100%;
+	max-width: 900px;
+	margin:  0 auto;
+	min-width: 340px;
+	/*max-width: 900px;
+	margin: 0 auto;*/
+}
+#container {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 40px 25px 70px 25px;
+}
+section h2 {
+	font-weight: 500;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 1.2em;
+}
+.slide-wrap, section {
+	margin-bottom: 70px;
+}
+
+/*.swiper-container*/
+.slide-wrap {
+	width:  100%;
+}
+.swiper-container.m-slide {
+	width: 100%;
+	height: auto;
+}
+.m-slide .swiper-slide {
+	background-position: center;
+	background-size: 100%;
+	text-indent: -9999px;
+	padding-bottom: 100%;
+}
+
+.m-slide .swiper-pagination-bullet {
+	width: 40px;
+	height: 3px;
+	background: #f5f5f5;
+	border-radius: 0;
+}
+.m-slide .swiper-pagination-bullet-active {
+	background-color: #971421;
+}
+/*.swiper-container.p-slide*/
+.pro-sec .list-tab {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.pro-sec .list-tab li {
+	font-size: 15px;
+	display: inline-block;
+	margin:  0 10px;
+	padding-bottom:  8px;
+}
+.pro-sec .list-tab li.on {
+	font-weight: bold;
+	border-bottom: 2px solid #312f2d;
+}
+.pro-sec .list-tab a {
+	color: #585858;
+}
+.pro-sec .list-tab li.on a {
+	color: #312f2d;
+}
+.swiper-container.p-slide {
+	width: 100%;
+	padding-bottom: 30px;
+}
+.p-slide .p-box {
+	margin: 0 20px;
+	/*background-color: orange;*/
+}
+.p-slide a {
+	color: #312f2d;
+	display: block;
+}
+.p-slide figure {
+	width: 80%;
+	height: 260px;
+	margin: 0 auto;
+}
+.p-slide img {
+	width: 100%;
+	max-width: 245px;
+}
+.p-slide .p-txt {
+	/*width: 320px;*/
+	padding: 15px 25px 30px 25px;
+	box-sizing: border-box;
+	background-color: rgba(128, 128, 128, 0.1);
+}
+.p-slide .p-txt > span:first-child {
+	display: inline-block;
+	font-size: 13px;
+	color: #585856;
+	border-radius: 1.1em;
+	border: 1px solid #585856;
+	padding: 8px 14px 7px 14px;
+}
+.p-slide .p-txt > em {
+	display: block;
+	font-size: 14px;
+	color: #585856;
+	margin-top: 1em;
+}
+.p-slide .p-txt > strong:nth-child(3) {
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 1em;
+	display: block;
+}
+.p-slide .p-txt > span:nth-child(4) {
+	font-size: 14px;
+	display: block;
+	margin-top: 2em;
+	margin-bottom: 0.6em;
+}
+.p-slide .p-txt > strong:last-child {
+	font-size: 24px;
+	font-weight: 700;
+}
+.p-slide .p-txt > .mt::before {
+	content: "월 ";
+	font-size: 21px;
+
+}
+/*best-sec*/
+.best-sec .swiper-container.b-slide {
+	width: 100%;
+	padding-bottom: 30px;
+}
+.b-slide .swiper-pagination-bullet {
+	width: 12px;
+	height: 12px;
+	background-color: #111;
+	border-radius: 50%;
+}
+.b-slide .swiper-pagination-bullet-active {
+	background-color: #971421;
+}
+.b-slide.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 7px;
+}
+.best-sec ul {
+	margin-right: -10px;
+}
+.best-sec li {
+	float: left;
+	width:  calc( 50% - 10px );
+	border: 1px solid #eaeae9;
+	box-sizing: border-box;
+	margin: 0 10px 10px 0;
+	padding: 5px 0 7px 0px;
+}
+.best-sec li > a {
+	display: block;
+	height: 100%;
+	min-height: 255px;
+}
+.best-sec li img {
+	width: 100%;
+}
+.best-sec li .info {
+	display: block;
+	text-align: center;
+}
+.best-sec li .info .tag {
+	font-size: 12px;
+	color: #8a8b87;
+}
+.best-sec li .info .name {
+	display: block;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #312f2d;
+}
+/*channel-sec*/
+.channel-sec .swiper-container {
+	width: 100%;
+	padding-bottom: 80px;
+}
+.c-slide .swiper-pagination-bullet {
+	width: 12px;
+	height: 12px;
+	background-color: #111;
+	border-radius: 50%;
+}
+.c-slide .swiper-pagination-bullet-active {
+	background-color: #971421;
+}
+.c-slide.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 7px;
+}
+.channel-sec a {
+	position: relative;
+	display: block;
+}
+.channel-sec img {
+	width: 100%;
+	max-width: 100%;
+}
+.channel-sec p {
+	padding-top:  40px;
+	font-size: 22px;
+	line-height: 32px;
+	text-align: center;
+	color: #312f2d;
+	background-color: #fff;
+	position: absolute;
+	bottom: -24px;
+	left: 50%;
+	width: 100%;
+	letter-spacing: -1px;
+	max-width: 330px;
+	transform: translateX(-50%);
+}
+
+/*serv-sec*/
+.serv-sec .serv-box {
+	margin-left: 25px;
+}
+.serv-sec .serv-in {
+	width: 90%;
+	margin: 0 auto;
+	overflow-y: auto;
+	font-size: 14px;
+}
+.serv-sec ul {
+	min-width: 910px;
+	padding-bottom: 2.5em;
+}
+.serv-sec a {
+	display: block;
+	color: #312f2d;
+}
+.serv-sec li {
+	width: 31.9%;
+	margin-left: 1.4%;
+	float: left;
+}	
+.serv-sec img {
+	width: 100%;
+	height: auto;
+}
+.serv-sec h3 {
+	font-size: 18px;
+	font-weight: 500;
+	margin: 1.1em 0;
+}

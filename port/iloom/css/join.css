@@ -1,0 +1,187 @@
+.join-sec {
+	text-align: center;
+	padding: 100px 0;
+}
+.join-sec > .tit {
+	padding: 50px 0;
+}
+.join-sec > .tit > h2 {
+	font-size: 30px;
+	font-weight: 700;
+}
+.join-sec ul {
+	padding-top: 70px;
+	width: 450px;
+	margin: 0 auto;
+	position: relative;
+}
+.join-box > a {
+	position: absolute;
+	top: 0;
+	border: 1px solid #a0938e;
+	width: 50%;
+	padding: 10px 0;
+	color: #333;
+	font-size: 15px;
+
+}
+.join-box.on > a {
+	background-color: #a0938e;
+	color: #fff;
+}
+.join-box > .member {
+	left: 0;
+}
+.join-box > .n-member {
+	left: 50%;
+}
+.join-box > .join-wrap {
+	display: none;
+}
+.join-box.on > .join-wrap {
+	display: block;
+}
+.join-box .join-form > span {
+	display: block;
+	padding-bottom: 10px;
+}
+.join-box span > input[type="text"] {
+    border: 1px solid #eee;
+    width: 96%;
+    height: 21px;
+    font-size: 15px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    padding: 7px 0 7px 20px;
+    color: #333;
+}
+.join-box span > input[type="password"] {
+	border: 1px solid #eee;
+    width: 96%;
+    font-size: 15px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    padding: 7px 0 7px 20px;
+    color: #333;
+}
+.join-box span > input[type="tel"] {
+	border: 1px solid #eee;
+    width: 96%;
+    font-size: 15px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+    padding: 7px 0 7px 20px;
+    color: #333;
+}
+.join-box .save-find {
+	margin: 0 auto;
+}
+.join-box .save-find > .save {
+	float: left;
+}
+.join-box .save-find > .save > label{
+	font-size: 14px;
+	color: #999;
+}
+.join-box .save-find > .find {
+	float: right;
+}
+.join-box .save-find > .find a {
+	font-size: 14px;
+	color: #999;
+	display: inline-block;
+	margin-left: 10px;
+	position: relative;
+}
+.join-box .save-find > .find a:first-child::after {
+	content: "";
+	height: 13px;
+	width: 1px;
+	background-color: #eee;
+	position: absolute;
+	right: -8px;
+	top: 1px;
+}
+.join-box .btn {
+	margin-top: 40px;
+}
+.join-box .btn a {
+	display: block;
+	color: #333;
+	background-color: #fff;
+	padding: 20px 0;
+	border: 1px solid #a0938e;
+	transition: 0.5s;
+}
+/*.join-box .btn a:hover {
+	border-color: #333;
+}*/
+.join-box .btn > .btn-login {
+	padding-bottom: 10px;
+}
+.join-box .btn > .btn-login > a {
+    background-color: #a0938e;
+    color: #fff;
+}
+.join-box .btn > .btn-join  {
+	padding-bottom: 10px;
+}
+.join-box .btn > .other-login {
+	display: flex;
+}
+.join-box .btn > .other-login > a {
+	flex: 1 auto;
+	margin-right: 10px;
+	padding-left: 30px;
+	border: none;
+}
+.join-box .btn > .other-login > a:first-child {
+	background-color: #f9d03c;
+}
+.join-box .btn > .other-login > a:last-child {
+	margin-right: 0;
+	background-color: #3bae37;
+	color: #fff;
+}
+.join-box .btn > .other-login > a > span {
+	position: relative;
+}
+.join-box .btn > .other-login > a > span::before {
+	content: "";
+	background: url(../img/footer/icnKakaoBlck.svg)no-repeat center / cover;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	left: -30px;
+	position: absolute;
+
+}
+.join-box .btn > .other-login > a:last-child > span::before {
+	background-image: url(../img/footer/naver-icon.svg);
+	width: 15px;
+    height: 15px;
+    top: 6px;
+    left: -25px;
+}
+.join-box .join-txt > p {
+	color: #999;
+    font-size: 13px;
+    line-height: 22px;
+    text-align: left;
+    font-weight: 400;
+}
+@media (max-width: 780px) {
+	.join-sec ul {
+		padding-top: 70px;
+		width: 90.3%;
+	}
+	.join-box span > input[type="text"] {
+	    width: 94%;
+	}
+	.join-box span > input[type="password"] {
+	    width: 94%;
+	}
+	.join-box span > input[type="tel"] {
+	    width: 94%;
+	}
+}

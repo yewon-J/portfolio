@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Description" content="TWOSOME">
+	<meta name="Author" content="TWOSOME">
+	<meta name="Keywords" content="TWOSOME"> 
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">  
+	<title>투썸플레이스 - Premium Dessert Cafe A Twosome Place.</title>
+	<meta property="og:title" content="포트폴리오">
+	<meta property="og:image" content="">
+	<meta property="og:url" content="https://www.twosome.co.kr:7009/">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="TWOSOME">
+	<link rel="canonical" href="https://www.twosome.co.kr:7009/"> 
+	<!--표기되어 있는 url이 표준페이지라고 알려주는 역할-->	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">	
+	<link rel="apple-touch-icon" href="favicon.png">
+	<!-- 모바일에서 홈화면에 추가되었을 때 아이콘 -->	
+	<link rel="stylesheet" href="../../css/reset.css">
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/footer.css">
+
+	<link rel="stylesheet" href="../../css/slick/slick.css">
+	<link rel="stylesheet" href="../../css/slick/slick-theme.css">
+	<script src="../../js/jquery-3.6.0.min.js"></script>
+	<script src="../../js/plugin/jquery.vticker-min.js"></script>
+</head>
+<body>
+	<div id="skip">
+		<a rel="bookmark" href="content">twosome content</a>
+	</div>
+	<div id="wrap">
+		<header class="nav">
+			<div class="h-in">
+				<div class="h-top">
+					<div class="h-right">
+						<a href="#">로그인</a>
+						<a href="#">회원가입</a>
+						<a href="#">고객센터</a>
+						<a href="#">뉴스및공지</a>
+					</div>
+				</div>
+				<div class="h-bot">
+					<div class="logo">
+						<h1><a href="index.html">투썸로고</a></h1>
+					</div>
+					<nav>
+						<h2 class="hidden">twosome 사이트맵</h2>
+						<div class="nav-wrap">
+							<ul class="navi">
+								<li>
+									<a href="#">TWOSOME</a>
+									<div class="depth">
+										<ul>
+											<li><a href="#">투썸플레이스</a></li>
+											<li><a href="#">투썸 커피</a></li>
+											<li><a href="#">투썸 디저트</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">MENU</a>
+									<div class="depth">
+										<ul>
+											<li><a href="#">커피</a></li>
+											<li><a href="#">음료</a></li>
+											<li><a href="#">디저트</a></li>
+											<li><a href="#">푸드</a></li>
+											<li><a href="#">홀케이크</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">STORE</a>
+									<div class="depth">
+										<ul>
+											<li><a href="#">매장찾기</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">EVENT</a>
+									<div class="depth">
+										<ul>
+											<li><a href="#">이벤트</a></li>
+											<li><a href="#">멤버십</a></li>
+											<li><a href="#">제휴카드</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">FRANCHISE</a>
+									<div class="depth">
+										<ul>
+											<li><a href="#">창업정보 및 절차</a></li>
+											<li><a href="#">FAQ</a></li>
+											<li><a href="#">전용금융상품</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="#">SERVICE</a>
+									<div class="depth">
+										<ul>
+											<li><a href="#">기업 및 단체 구매</a></li>
+											<li><a href="#">창업설명회</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<script>
+			$('.navi > li > a').mouseenter(function() {
+				$('header').addClass("on");
+				$('header').addClass("sub");
+			})
+			$('.navi, .depth').mouseleave(function() {
+				$('header').removeClass("on");
+				$('header').removeClass("sub");
+			})
+
+			$(function() {
+				$(window).scroll(function() {
+					var sTop = $(window).scrollTop();
+					$("header").addClass("active");
+					if(sTop == 0) {
+						$("header").removeClass("active");
+					};
+				});
+			});
+		</script>		
+		<div id="container">
+			<div class="main-slide">
+				<div class="t-slide">
+					<div class="t-bg" style="background-image: url(img/head/slide/slide01.jpg);">
+						<a href="#">
+							<div class="t-txt hidden">promotion</div>
+						</a>
+					</div>
+					<div class="t-bg" style="background-image: url(img/head/slide/slide02.png);">
+						<a href="#">
+							<div class="t-txt hidden">promotion</div>
+						</a>
+					</div>
+					<div class="t-bg" style="background-image: url(img/head/slide/slide03.png);">
+						<a href="#">
+							<div class="t-txt hidden">promotion</div>
+						</a>
+					</div>
+					<div class="t-bg" style="background-image: url(img/head/slide/slide05.png);">
+						<a href="#">
+							<div class="t-txt hidden">promotion</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<script src="../../js/plugin/slick.min.js"></script>
+			<script>
+				$(function() {
+					$(".t-slide").slick({
+					  dots: true,
+					  infinite: true,
+					  speed: 300,
+					  slidesToShow: 1,
+					  slidesToScroll: 1,
+					  autoplay: true,
+					  autoplaySpeed: 3000,
+					});
+
+				});
+
+			</script>
+			<section class="season-sec">
+				<div class="tit-red-box">
+					<div>
+						<h2 class="gmarketB">SEASON MENU</h2>
+					</div>
+				</div>
+				<div class="s-in">
+					<div class="s-slide">
+						<div class="s-frame">
+							<a href="#">season-menu</a>
+						</div>
+						<div class="s-frame">
+							<a href="#" style="background-image: url(img/container/season-sec/season02.png);">season-menu</a>
+						</div>
+						<div class="s-frame">
+							<a href="#" style="background-image: url(img/container/season-sec/season03.png);">season-menu</a>
+						</div>
+						<div class="s-frame">
+							<a href="#" style="background-image: url(img/container/season-sec/season04.png);">season-menu</a>
+						</div>
+						<div class="s-frame">
+							<a href="#" style="background-image: url(img/container/season-sec/season05.png);">season-menu</a>
+						</div>
+						<div class="s-frame">
+							<a href="#" style="background-image: url(img/container/season-sec/season06.png);">season-menu</a>
+						</div>
+						<div class="s-frame">
+							<a href="#" style="background-image: url(img/container/season-sec/season07.png);">season-menu</a>
+						</div>
+						<div class="s-frame">
+							<a href="#" style="background-image: url(img/container/season-sec/season08.png);">season-menu</a>
+						</div>
+						<div class="s-frame">
+							<a href="#" style="background-image: url(img/container/season-sec/season09.png);">season-menu</a>
+						</div>
+						<div class="s-frame">
+							<a href="#" style="background-image: url(img/container/season-sec/season10.png);">season-menu</a>
+						</div>
+						<div class="s-frame">
+							<a href="#" style="background-image: url(img/container/season-sec/season11.png);">season-menu</a>
+						</div>
+						<div class="s-frame">
+							<a href="#" style="background-image: url(img/container/season-sec/season12.png);">season-menu</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<script>
+				$(function() {
+					$('.s-slide').slick({
+						infinite: true,
+						dots: true,
+						slidesToShow: 5,
+						slidesToScroll: 5
+					});
+				});
+			</script>
+			<section class="menu-sec">
+				<div class="tit-red-box">
+					<div>
+						<h2 class="gmarketB">WHAT'S NEW?</h2>
+					</div>
+				</div>
+				<div class="menu-list">
+					<ul>
+						<li>
+							<a href="#">
+								<div class="m-bg"><span class="hidden">menu01</span></div>
+							</a>	
+							<em>2021 06 Ice Long black</em>
+							
+						</li>
+						<li>
+							<a href="#">
+								<div class="m-bg"><span class="hidden">menu02</span></div>
+							</a>	
+							<em>2021 06 MD Edition</em>
+							
+						</li>
+						<li>
+							<a href="#">
+								<div class="m-bg"><span class="hidden">menu03</span></div>
+							</a>	
+							<em>2021 05 Strawberry Chocolate Cream Cake</em>
+							
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="banner-sec">
+				<h2 class="hidden">투썸모바일</h2>
+				<div>
+					<a href="#" class="hidden">투썸모바일 배너</a>
+				</div>
+			</section>
+			<section class="about-sec">
+				<div class="about-top">	
+					<div class="about-tit">
+						<h2 class="gmarketB">ABOUT<br>TWOSOME<br>PLACE</h2>
+						<p>Premium Coffee & Dessert</p>
+					</div>
+				</div>
+				<div class="about-bot">
+					<div class="about-txt">
+						<strong>SMALL INDULGENCE</strong>
+						<p>투썸플레이스는 따스한 한잔의 커피가 있는, 우리가 함께하는, 눈과 입이 즐거운 색다른<br>디저트를 즐기는, 작은 사치를 누릴 수 있는 행복한 공간입니다.</p>
+					</div>	
+					<div class="about-list">
+						<ul class="brand left clearfix">
+							<li class="about-list-bg">
+								<span>TWO OF US</span>
+							</li>
+							<li class="about-list-story">
+								<a href="#">
+									<strong class="right">BRAND STORY</strong>
+									<em>프리미엄 디저트 카페 투썸플레이스 브랜드이야기</em>
+								</a>
+							</li>
+						</ul>
+						<ul class="coffee right clearfix">
+							<li class="about-list-bg">
+								<span>SOME DESSERT</span>
+							</li>
+							<li class="about-list-story reverse">
+								<a href="#">
+									<strong class="left">COFFEE STORY</strong>
+									<em>프리미엄 디저트 카페 투썸플레이스 커피 이야기</em>
+								</a>
+							</li>
+						</ul>
+						<ul class="dessert left clearfix">
+							<li class="about-list-bg">
+								<span>place</span>
+							</li>
+							<li class="about-list-story">
+								<a href="#">
+									<strong class="right">DESSERT STORY</strong>
+									<em>프리미엄 디저트 카페 투썸플레이스 디저트 이야기</em>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<script>
+				$(window).scroll(function() {
+					var st1 = $(window).scrollTop();
+					
+					var aboutTit = $('.banner-sec').offset().top;
+					var aboutTxt = $('.about-top').offset().top;
+					var anit1 = $('.about-txt').offset().top-200;
+					var anit2 = $('.about-txt').offset().top+300;
+					var anit3 = $('.about-txt').offset().top+800;
+					if(st1 > aboutTit) {
+						$('.about-tit').addClass("active");
+					};
+					if(st1 > aboutTxt) {
+						$('.about-txt').addClass("active");
+					};
+					if(st1 > anit1) {
+						$('.brand > .about-list-bg').addClass("active");
+					};
+					if(st1 > anit2) {
+						$('.coffee > .about-list-bg').addClass("active");
+					};
+					if(st1 > anit3) {
+						$('.dessert > .about-list-bg').addClass("active");
+					};
+				});
+			</script>
+			<section class="reco-sec">
+				<div class="tit-red-box">
+					<div>
+						<h2 class="gmarketB">RECOMMENDATION</h2>
+					</div>
+				</div>
+				<div class="reco-box">
+					<div class="reco-wrap">
+						<ul>
+							<li>
+								<a href="#">
+									<figure><img src="img/container/reco-sec/reco01.png" alt="스트로베리 초콜릿 생크림"></figure>
+									<div class="r-txt">
+										<p class="gmarketM">스트로베리 초콜릿 생크림</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure><img src="img/container/reco-sec/reco02.png" alt="스윗 투게더"></figure>
+									<div class="r-txt">
+										<p class="gmarketM">스윗 투게더</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure><img src="img/container/reco-sec/reco03.png" alt="딸기 생크림"></figure>
+									<div class="r-txt">
+										<p class="gmarketM">딸기 생크림</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<figure><img src="img/container/reco-sec/reco04.png" alt="핑키 초키 도넛 케이크"></figure>
+									<div class="r-txt">
+										<p class="gmarketM">핑키 초키 도넛 케이크</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<div class="btn-show">
+							<a href="#">show more</a>
+						</div>
+					</div>
+				</div>			
+			</section>
+			<section class="tv-sec">
+				<div class="tv-bg">
+					<h2 class="gmarketB">TWOSOME TV</h2>
+					<div class="tv-in">
+						<div class="tv-mid">
+							<div class="tv">
+								<iframe width="870" height="502" src="https://www.youtube.com/embed/8vMRtiU9638" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div class="tv-box">
+								<div class="tv-txt">
+									<span>[투썸플레이스 X 남주혁]</span>
+									<span>올 겨울도 저랑 함께하실래요?</span>
+									<span>winter in my Fantasy, 투썸플레이스</span>
+									<div><a href="#">다른 영상보기 ></a></div>
+								</div>
+								<ul>
+									<li><img src="img/container/tv-sec/tv01.png" alt="광고1"></li>
+									<li><img src="img/container/tv-sec/tv02.png" alt="광고2"></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="sns-sec">
+				<div class="tit-red-box">
+					<div>
+						<h2 class="gmarketB"># TWOSOME SNS</h2>
+					</div>
+				</div>
+				<ul class="sns-box">
+					<li class="big">
+						<a href="#"><figure><img src="img/container/sns-sec/sns01.png" alt="투썸sns"></figure></a>
+					</li>
+					<li class="small">
+						<a href="#"><figure><img src="img/container/sns-sec/sns02.png" alt="투썸sns"></figure></a>
+					</li>
+					<li class="small">
+						<a href="#"><figure><img src="img/container/sns-sec/sns03.png" alt="투썸sns"></figure></a>
+					</li>
+					<li class="small">
+						<a href="#"><figure><img src="img/container/sns-sec/sns04.png" alt="투썸sns"></figure></a>
+					</li>
+					<li class="small">
+						<a href="#"><figure><img src="img/container/sns-sec/sns05.png" alt="투썸sns"></figure></a>
+					</li>
+					<li class="small">
+						<a href="#"><figure><img src="img/container/sns-sec/sns06.png" alt="투썸sns"></figure></a>
+					</li>
+					<li class="small">
+						<a href="#"><figure><img src="img/container/sns-sec/sns07.png" alt="투썸sns"></figure></a>
+					</li>
+				</ul>
+			</section>
+			<section class="info-sec">
+				<div class="info-bg">
+					<div class="info-box">
+						<h2>당신의 창업 성공 스토리<br><span><em>투썸플레이스</em>가 함께 합니다.</span></h2>
+						<div class="btn">
+							<div class="fran-btn">
+								<a href="#">창업안내</a>
+							</div>
+							<div class="find-btn">
+								<a href="#">매장찾기</a>
+							</div>
+						</div>
+						<div class="search-input">
+							<input type="text" placeholder="가까운 매장찾기">
+							<button class="btn-del"><span class="hidden">삭제</span></button>
+							<button class="btn-search"><span class="hidden">검색</span></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<script>
+				$('.search-input > input').keyup(function() {
+					$(".btn-del").show();
+				});
+				$(".btn-del").click(function() {
+					$('.search-input > input').val("");
+				});
+			</script>
+			<div class="top-btn">
+				<a href="#container">top</a>
+			</div>
+			<script>
+				$(window).scroll(function() {
+					var winTop = $(window).scrollTop();
+					var mainSlide = $('.main-slide').offset().top;
+					if(winTop > mainSlide) {
+						$('.top-btn').addClass("active");
+					}else {
+						$('.top-btn').removeClass("active");
+					};
+				});
+			</script>
+		</div>	
+		<footer>
+			<div class="f-in">
+				<div class="f-top clearfix">
+					<div class="left">
+						<span><a href="#">사이트맵</a></span>
+						<span><a href="#">리쿠르트</a></span>
+						<span><a href="#">이용약관</a></span>
+						<span><a href="#">개인정보처리방침</a></span>
+						<span><a href="#">위치기반서비스 이용약관</a></span>
+						<span><a href="#">이메일 무단수집거부</a></span>
+						<span><a href="#">법적고지</a></span>
+					</div>
+					<div class="right">
+						<a href="#"><img src="img/foot/y-icon.png" alt="유튜브아이콘"></a>
+						<a href="#"><img src="img/foot/i-icon.png" alt="인스타아이콘"></a>
+						<a href="#"><img src="img/foot/f-icon.png" alt="페이스북아이콘"></a>
+					</div>
+				</div>
+				<div class="f-bot">
+					<div class="logo"><span class="hidden">twosome-logo</span></div>
+					<address>
+						<div>
+							<span>서울특별시 중구 을지로 170,8층(을지로4가,을지로트윈타워) 투썸플레이스(주)</span>
+						</div>
+						<div>
+							<span>대표이사 : 이영상</span>
+							<span>개인정보보호책임자 : 장재호</span>
+							<span>사업자등록번호 : 404-86-01054</span>
+							<span>통신판매업종신고증 : 제 2018-서울중구-0353호</span>
+						</div>
+						<div>
+							<span>고객센터 : 1677-4410</span>
+							<span>팩스 : 02-2058-6777</span>
+							<span>대표이메일 : helpmaster@twosome.co.kr</span>
+						</div>
+						<p class="copy">Copyrights &copy; A TWOSOME PLACE All Rights Reserved</p>
+					</address>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

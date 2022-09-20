@@ -1,0 +1,247 @@
+/*footer*/
+.light {
+	font-weight: 400;
+}
+.f-top {
+	padding: 4.3% 0;
+	background-color: #f6f5f3;
+	font-size: 13px;
+	transition: 0.5s;
+}
+.f-top > .i-in {
+	display: flex;
+}
+.f-top .top-logo {
+	/*flex: 1 auto;*/
+}
+.f-top .top-logo > .iloom-logo  {
+	width: 161px;
+	height: 45px;
+	background: url(../img/footer/iloom-logo.svg)no-repeat center;
+	text-indent: -9999px;
+	transition: 0.5s;
+}
+.f-top ul {
+	display: flex;
+	flex: 1 auto;
+	justify-content: center;
+}
+.f-top ul > li {
+	padding-right: 130px;
+}
+.f-top ul > li:last-child {
+	padding-right: 0;
+}
+.f-top ul > li > a {
+	display: block;
+	color: #333;
+	margin-bottom: 23px;
+}
+.f-top ul > li > a.F-B {
+	font-weight: 700;
+}
+.f-top .cs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    transition: 0.5s;
+}
+.f-top .cs > .cs-txt {
+	position: relative;
+}
+.f-top .cs > .cs-txt > span {
+	display: block;
+} 
+.f-top .cs > .cs-txt > a {
+	color: #333;
+	display: inline-block;
+	padding: 10px 8px 10px 32px;
+	margin: 15px 0;
+	border: 1px solid #aaa;
+	position: relative;
+	background-color: #fff;
+}
+.f-top .cs > .cs-txt > a::before {
+	content: "";
+	width: 18px;
+	height: 16px;
+	background: url(../img/footer/icnKakaoBlck.svg)no-repeat center;
+	position: absolute;
+	left: 8px;
+}
+.f-top .cs > .cs-txt > p {
+	padding-top: 18px;
+	line-height: 18px;
+}
+.f-mid {
+	background-color: #f6f5f3;
+}
+.f-mid > .i-in {
+	display: flex;
+	border-top: 2px solid #e8e7e6;
+	padding: 2% 0;
+}
+.f-mid .f-sns {
+	margin-right: 7%;
+}
+.f-mid .f-sns > a {
+	width: 27px;
+	height: 27px;
+	text-indent: -9999px;
+	background: url(../img/footer/footer_i.png)no-repeat center;
+	display: inline-block;
+	margin-right: 20px;
+}
+.f-mid .f-sns > a:nth-child(2) {
+	background: url(../img/footer/footer_f.png)no-repeat center;
+}
+.f-mid .f-sns > a:last-child {
+	background: url(../img/footer/footer_b.png)no-repeat center;
+}
+.f-mid address {
+	font-size: 12px;
+	flex: 1 auto;
+	display: flex;
+	justify-content: center;
+	transition: 0.5s;
+}
+.f-mid address span {
+	display: inline-block;
+	padding-bottom: 22px;
+}
+.f-mid address span.pa {
+	padding-left: 20px;
+}
+.f-mid .f-ico {
+	text-indent: -9999px;
+	/*flex: 1 auto;*/
+	display: flex;
+	justify-content: flex-end;
+}
+.f-mid .f-ico > .mark1 {
+	width: 91px;
+	height: 35px;
+	background: url(../img/footer/mark_1.png)no-repeat center / cover;
+}
+.f-mid .f-ico > .mark2 {
+	width: 45px;
+	height: 37px;
+	background: url(../img/footer/mark_2.png)no-repeat center / cover;
+	margin-left: 18px;
+}
+.f-mid .f-ico > .mark3 {
+	width: 45px;
+	height: 35px;
+	background: url(../img/footer/spc_iloom.png)no-repeat center / cover;
+	margin-left: 18px;
+}
+.f-bot {
+	background-color: #9a988b;
+	padding: 15px 0;
+	color: #fff;
+	font-size: 11px;
+	text-align: center;
+	transition: 0.5s;
+}
+@media (max-width: 1800px) {
+	
+}
+@media (max-width: 1280px) {
+	.f-top {
+	    padding: 35px 0;
+	}
+	.f-top > .i-in {
+		display: block;
+	}
+	.f-top .top-logo {
+		display: flex;
+		justify-content: center;
+		padding-bottom: 35px;
+	}
+	.f-top .top-logo > .iloom-logo {
+		width: 112px;
+		height: 35px;
+	}
+	.f-top ul > li {
+	    padding-right: 5%;
+	}
+	.f-top .cs {
+	    align-items: center;
+	}
+	.f-top .cs > .cs-txt {
+		width: 300px;
+		padding-top: 20px;
+	}
+	.f-top .cs > .cs-txt > a {
+		position: absolute;
+		top: -15px;
+	    right: 30px;
+	}
+	.f-top .cs > .cs-txt > span {
+		display: inline-block;
+	}
+	.f-top .cs > .cs-txt > span:first-of-type {
+		padding: 0 15px;
+	}
+	.f-top .cs > .cs-txt > span:last-of-type::after {
+		content: "평일 09:30 ~ 17:30 (제품문의, 매장안내, 분해설치)";
+		position: absolute;
+		font-weight: 300;
+		left: 0;
+		bottom: 0;
+	}
+	.f-top .cs > .cs-txt > p {
+		visibility: hidden;
+		padding-top: 0;
+	}
+	.f-mid > .i-in {
+		display: block;
+	}
+	.f-mid .f-sns {
+	    display: flex;
+	    justify-content: center;
+	    margin-right: 0;
+	    padding-bottom: 25px;
+	}
+	.f-mid .f-sns > a {
+		margin: 0 10px;
+	}
+	.f-mid address span.pa {
+	    padding-left: 0;
+	}
+	.f-mid address .row2 > span.pa {
+		padding-left: 20px;
+	}
+	.f-mid address .row3 {
+		display: flex;
+		flex-direction: column;
+	}
+	.f-mid .f-ico {
+		display: none;
+	}
+}
+@media (max-width: 780px) {
+	.f-top {
+		padding: 50px 0;
+		font-size: 12px;
+	}
+	.f-top .top-logo {
+		padding-bottom: 50px;
+	}
+	.f-top .top-logo > .iloom-logo {
+		width: 97px;
+		height: 26px;
+	}
+	.f-top .cs > .cs-txt > a {
+	    right: 40px;
+	}
+	.f-top .cs > .cs-txt > span:last-of-type::after {
+	    left: 15px;
+	}
+	.f-mid address {
+		font-size: 11px;
+	}
+	.f-bot {
+		font-size: 10px;
+	}
+}
